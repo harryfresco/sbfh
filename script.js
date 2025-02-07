@@ -1,5 +1,7 @@
+let out = 0
 function generate() {
-    let out = Math.floor(Math.random() * 7) + 1;
+    //let out = Math.floor(Math.random() * 7) + 1;
+
     let div = document.getElementById('output');
     let colourBox = document.getElementById('colourBox');
     let button = document.getElementById('buttonOut');
@@ -8,13 +10,14 @@ function generate() {
         div.innerText=out
         div.style.textDecoration='underline'
         colourBox.style.backgroundColor='red'
+        out=0
     }
     else{
 
         div.innerText=out
                 div.style.textDecoration='none'
                 colourBox.style.backgroundColor='aqua'
-              
+                out++;
     }
 
 
