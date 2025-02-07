@@ -25,3 +25,7 @@ body{
 .shadow{
     text-shadow: 15px 5px rgb(0, 76, 255);
 }
+.mainMarquee{
+    background-color: aqua;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
