@@ -11,6 +11,7 @@
     display: inline-block;
     padding: 10px;
     background-color: antiquewhite;
+
 }
 
 
@@ -18,6 +19,8 @@ body{
     background-image: url("img/group.webp");
     background-repeat: repeat;
     background-size: 150px;
+    font-family: "Times New Roman", Times, serif;
+    cursor:url('img/rocket.png'), auto;
 }
 .shadow{
     text-shadow: 15px 5px rgb(0, 76, 255);
